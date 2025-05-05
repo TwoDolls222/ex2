@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-widt, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Jogo da Forca</h1>
+    <div id="game">
+        <p id="palavra-secreta">_ _ _ _</p>
+
+        <input type="text" id="letra" maxlength="1" placeholder="Digite uma letra">
+        <button id="verificar">Verificar</button>
+
+        <p>Letras erradas: <span id="letras-erradas"></span></p>
+        <p>Tentativas restantes: <span id="tentativas">6</span></p>
+        <p id="mensagem"></p>
+
+        <button id="novo-jogo">Novo Jogo</button>
+        <script src="main.js"></script>
+</body>
+
+</html>
